@@ -569,6 +569,67 @@ form a{
 	color: #fff;
 }
 
+.invalid-credential{
+	text-transform: uppercase;
+	font-weight: 600;
+	color: yellow;
+	margin-top: 1rem;
+	display: none;
+}
+
+/* Responsive Layout */
+
+
+@media (min-width: 360px){
+	
+	.form-input{
+		width:  20rem;
+	}
+	
+	.avatar img{
+		height: 7rem;         /* 120px */
+		width: 7rem;
+		margin-top: -3.5rem;
+	}	
+	
+	.form-input input{
+			width: 18.75rem;       	    /* 300px */
+			font-size: 1.125rem;     	/*  18px */
+	}
+	
+	.fa.fa-user{font-size: 2.1875rem;}	
+		
+	.form-inputs:nth-of-type(2):before{   /*font-awesome fa fa-lock icon */
+		font-size: 2.1875rem;     /*  35px  */
+	}
+
+	input[type="text"], input[type="password"]{
+		height: 2.5rem;         /*  40px */
+		width: 18.75rem;        /* 300px */
+		font-size: 1.125rem;    /*  18px */
+	}
+	
+	input[type="submit"]{
+		height: 2.1875rem;         /*  35px */
+		width: 6.25rem;            /* 100px */
+	}	
+		
+}
+	
+
+@media (min-width: 768px){
+		
+	.form-input{
+		width:  25rem;
+	}	
+	
+	.avatar img{
+		height: 7.5rem;         /* 120px */
+		width: 7.5rem;
+	}	
+	
+}
+
 
 
 
