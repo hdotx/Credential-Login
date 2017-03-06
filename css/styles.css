@@ -516,3 +516,61 @@ body{
 	color: #ff0;    /* yellow */
 }
 
+.form-input input{
+	height: 2rem;            /*  32px */
+	width: 11rem;            /* 176px */
+	font-size: 1rem;    	 /*  16px */
+ 	margin-bottom: 1.25rem;  /*  20px */
+	padding-left: 2.875rem;  /*  46px */ 
+	margin-top: .3125rem;    /*   5px */
+}
+
+.fa.fa-user{
+	position: absolute;
+	padding-left: .375rem;         
+	padding-top: .375rem;     
+ 	font-size: 1.75rem;    
+	color: rgb(72,61,139);    /* darkslateblue color */
+}	
+
+.form-inputs:nth-of-type(2):before{   /*font-awesome fa fa-lock icon */
+	content: "\f023";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-top: .375rem;     /*   6px  */
+	padding-left: .375rem;    /*   6px  */
+	font-size: 1.75rem;     /*  35px  */
+	color: rgb(72,61,139);
+}
+
+input[type="text"], input[type="password"]{
+	height: 2rem;           /*  32px */
+	width: 11rem;           /* 176px */
+	font-size: 1rem;        /*  18px */
+	margin-bottom: 1.25rem; /*  20px */
+	background-color: #fff;
+	color: #000;
+	padding-left: 2.5rem;
+}
+
+input[type="submit"]{
+	height: 2rem;             
+	width: 6.25rem;            /* 100px */
+	padding: .3125rem .8125rem;
+	color: #ff0;
+	background-color: #2ecc71;   
+	border:1px solid #00FF00;
+	margin-top: .625rem;       /*  10px */
+	border-radius: .375rem;
+	cursor: pointer;
+}
+
+form a{
+	color: #fff;
+}
+
+
+
+
+
+
